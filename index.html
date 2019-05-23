@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <title>Tabla Periódica</title>
+
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>Tabla Periódica</h1>
+                
+                <div class="tabla">
+                    <table id="Series" class="Series" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <th colspan="5" style="background-color: rgb(153,153,153); color:white;"><a href="http://es.wikipedia.org/wiki/Metales">Metales</a></th>
+                                <td id="Metaloides" class="Metaloides" rowspan="3"><a href="http://es.wikipedia.org/wiki/Metaloides">Metaloides</a></td>
+                                <th colspan="2" style="background-color:rgb(153,153,153); color:white;"><a href="http://es.wikipedia.org/wiki/No%20metales">No metales</a></th>
+                            </tr>
+                            <tr>
+                                <td id="Alkali" class="Alkali" rowspan="2"><a href="http://es.wikipedia.org/wiki/Alcalinos">Alcalinos</a></td>
+                                <td id="Alkaline" class="Alkaline" rowspan="2"><a href="http://es.wikipedia.org/wiki/Alcalinot%C3%A9rreos">Alcalinotérreos</a></td>
+                                <td id="Lanthanoid" class="Lanthanoid"><a href="http://es.wikipedia.org/wiki/Lant%C3%A1nidos">Lantánidos</a></td>
+                                <td id="Transition" class="Transition" rowspan="2"><a href="http://es.wikipedia.org/wiki/Metales%20de%20transici%C3%B3n">Metales de transición</a></td>
+                                <td id="Poor" class="Poor" rowspan="2"><a href="http://es.wikipedia.org/wiki/Metales%20del%20bloque%20p">Metales del bloque p</a></td>
+                                <td id="Nonmetal" class="Nonmetal" rowspan="2"><a href="http://es.wikipedia.org/wiki/Otros%20no%20metales">Otros no metales</a></td>
+                                <!--<td id="Halogen" class="Halogen" rowspan="2"><a href="http://es.wikipedia.org/wiki/Hal%C3%B3genos">Halógenos</a></td>-->
+                                <td id="Noble" class="Noble" rowspan="2"><a href="http://es.wikipedia.org/wiki/Gases%20nobles">Gases nobles</a></td>
+                            </tr>
+                            <tr>
+                                <td id="Actinoid" class="Actinoid"><a href="http://es.wikipedia.org/wiki/Act%C3%ADnidos">Actínidos</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div>
+                    <div class="elements">
+                        <div class="row">
+
+                            <div class="element group-base" id="noMetal"><span>H</span>
+                                <div class="at_details">Hidrógeno</div>
+                                <div class="at_num">1</div></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element group-forms"><span>He</span>
+                                <div class="at_details">Helio</div>
+                                <div class="at_num">2</div></div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="element group-metadata"><span>Li</span>
+                                <div class="at_details">Litio</div>
+                                <div class="at_num">3</div></div>
+                            <div class="element group-sectioning"><span>Be</span>
+                                <div class="at_details">Berilio</div>
+                                <div class="at_num">4</div></div>          
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+
+
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element group-text-semantics"><span>B</span>
+                                <div class="at_details">Boro</div>
+                                <div class="at_num">5</div></div>
+                            <div class="element group-media" id="noMetal"><span>C</span>
+                                <div class="at_details">Carbono</div>
+                                <div class="at_num">6</div></div>
+                            <div class="element group-embedded" id="noMetal"><span>N</span>
+                                <div class="at_details">Nitrogeno</div>
+                                <div class="at_num">7</div></div>
+                            <div class="element group-table" id="noMetal"><span>O</span>
+                                <div class="at_details">Oxígeno</div>
+                                <div class="at_num">8</div></div>
+                            <div class="element group-table" id="noMetal"><span>F</span>
+                                <div class="at_details">Flúor</div>
+                                <div class="at_num">9</div></div>
+                            <div class="element group-forms"><span>Ne</span>
+                                <div class="at_details">Neón</div>	
+                                <div class="at_num">10</div></div>
+
+                        </div>
+                        <div class="row">
+                            <div class="element group-metadata"><span>Na</span>
+                                <div class="at_details">Sodio</div>
+                                <div class="at_num">11</div></div>
+                            <div class="element group-sectioning"><span>Mg</span>
+                                <div class="at_details">Magnesio</div>
+                                <div class="at_num">12</div></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element group-media"><span>Al</span>
+                                <div class="at_details">Aluminio</div>
+                                <div class="at_num">13</div></div>
+                            <div class="element group-embedded"><span>Si</span>
+                                <div class="at_details">Silicio</div>
+                                <div class="at_num">14</div></div>
+                            <div class="element group-table" id="noMetal"><span>P</span>
+                                <div class="at_details">Fósforo</div>
+                                <div class="at_num">15</div></div>
+                            <div class="element group-table" id="noMetal"><span>S</span>
+                                <div class="at_details">Azufre</div>
+                                <div class="at_num">16</div></div>
+                            <div class="element group-forms" id="noMetal"><span>Cl</span>
+                                <div class="at_details">Cloro</div>
+                                <div class="at_num">17</div></div>
+                            <div class="element group-forms"><span>Ar</span>
+                                <div class="at_details">Argón</div>
+                                <div class="at_num">18</div></div>
+                        </div>
+                        <div class="row">
+                            <div class="element group-metadata"><span>K</span>
+                                <div class="at_details">Potasio</div>
+                                <div class="at_num">19</div></div>
+                            <div class="element group-sectioning"><span>Ca</span>
+                                <div class="at_details">Calcio</div>
+                                <div class="at_num">20</div></div>
+                            <div class="element group-text-content"><span>Sc</span>
+                                <div class="at_details">Escandio</div>
+                                <div class="at_num">21</div></div>
+                            <div class="element group-text-content"><span>Ti</span>
+                                <div class="at_details">Titanio</div>
+                                <div class="at_num">22</div></div>
+                            <div class="element group-text-semantics"><span>V</span>
+                                <div class="at_details">Vanadio</div>
+                                <div class="at_num">23</div></div>
+                            <div class="element group-text-semantics"><span>Cr</span>
+                                <div class="at_details">Cromo</div>
+                                <div class="at_num">24</div></div> 
+                            <div class="element group-text-semantics"><span>Mn</span>
+                                <div class="at_details">Manganeso</div>
+                                <div class="at_num">25</div></div>
+                            <div class="element group-text-semantics"><span>Fe</span>
+                                <div class="at_details">Hierro</div>
+                                <div class="at_num">26</div></div>
+                            <div class="element group-text-semantics"><span>Co</span>
+                                <div class="at_details">Cobalto</div>
+                                <div class="at_num">27</div></div>
+                            <div class="element group-media"><span>Ni</span>
+                                <div class="at_details">Niquel</div> 
+                                <div class="at_num">28</div></div>
+                            <div class="element group-script"><span>Cu</span>
+                                <div class="at_details">Cobre</div>
+                                <div class="at_num">29</div></div> 
+                            <div class="element group-table"><span>Zn</span>
+                                <div class="at_details">Zinc</div>
+                                <div class="at_num">30</div></div>
+                            <div class="element group-table"><span>Ga</span>
+                                <div class="at_details">Galio</div>
+                                <div class="at_num">31</div></div>
+                            <div class="element group-forms"><span>Ge</span>
+                                <div class="at_details">Germanio</div>
+                                <div class="at_num">32</div></div>
+                            <div class="element group-interactive"><span>As</span>
+                                <div class="at_details">Arsénico</div>
+                                <div class="at_num">33</div></div>
+                            <div class="element group-interactive" id="noMetal"><span>Se</span>
+                                <div class="at_details">Selenio</div>
+                                <div class="at_num">34</div></div>
+                            <div class="element group-interactive" id="noMetal"><span>Br</span>
+                                <div class="at_details">Bromo</div>
+                                <div class="at_num">35</div></div>
+                            <div class="element group-interactive"><span>Kr</span>
+                                <div class="at_details">Kriptón</div>
+                                <div class="at_num">36</div></div>
+
+                        </div>
+                        <div class="row">
+                            <div class="element group-metadata"><span>Rb</span>
+                                <div class="at_details">Rubidio</div>
+                                <div class="at_num">37</div></div>
+                            <div class="element group-sectioning"><span>Sr</span>
+                                <div class="at_details">Estroncio</div>
+                                <div class="at_num">38</div></div>
+                            <div class="element group-text-content"><span>Y</span>
+                                <div class="at_details">Itrio</div>
+                                <div class="at_num">39</div></div>
+                            <div class="element group-text-content"><span>Zr</span>
+                                <div class="at_details">Circonio</div>
+                                <div class="at_num">40</div></div>
+                            <div class="element group-text-semantics"><span>Nb</span>
+                                <div class="at_details">Niobio</div>
+                                <div class="at_num">41</div></div>
+                            <div class="element group-text-semantics"><span>Mo</span>
+                                <div class="at_details">Molibdeno</div>
+                                <div class="at_num">42</div></div>
+                            <div class="element group-text-semantics"><span>Tc</span>
+                                <div class="at_details">Tecnecio</div>
+                                <div class="at_num">43</div></div>
+                            <div class="element group-text-semantics"><span>Ru</span>
+                                <div class="at_details">Rutenio</div>
+                                <div class="at_num">44</div></div>
+                            <div class="element group-text-semantics"><span>Rh</span>
+                                <div class="at_details">Rodio</div>
+                                <div class="at_num">45</div></div>
+                            <div class="element group-media"><span>Pd</span>
+                                <div class="at_details">Paladio</div>
+                                <div class="at_num">46</div></div>
+                            <div class="element group-script"><span>Ag</span> 
+                                <div class="at_details">Plata</div>
+                                <div class="at_num">47</div></div>
+                            <div class="element group-table"><span>Cd</span>
+                                <div class="at_details">Cadmio</div>
+                                <div class="at_num">48</div></div>
+                            <div class="element group-forms"><span>In</span>
+                                <div class="at_details">Indio</div>
+                                <div class="at_num">49</div></div>
+                            <div class="element group-forms"><span>Sn</span>
+                                <div class="at_details">Estaño</div>
+                                <div class="at_num">50</div></div>
+                            <div class="element group-interactive"><span>Sb</span>
+                                <div class="at_details">Antimonio</div>
+                                <div class="at_num">51</div></div>
+                            <div class="element group-interactive"><span>Te</span>
+                                <div class="at_details">Telurio</div>
+                                <div class="at_num">52</div></div>
+                            <div class="element group-interactive" id="noMetal"><span>I</span>
+                                <div class="at_details">Yodo</div>
+                                <div class="at_num">53</div></div>
+                            <div class="element group-interactive"><span>Xe</span>
+                                <div class="at_details">Xenón</div>
+                                <div class="at_num">54</div></div>
+
+                        </div>
+                        <div class="row">
+                            <div class="element group-sectioning"><span>Cs</span> 
+                                <div class="at_details">Cesio</div>
+                                <div class="at_num">55</div></div>
+                            <div class="element group-sectioning"><span>Ba</span>
+                                <div class="at_details">Bario</div>
+                                <div class="at_num">56</div></div>
+                            <div class="element group-text-content"><span>La</span>
+                                <div class="at_details">Lantano</div>
+                                <div class="at_num">57</div></div>
+                            <div class="element group-text-content"><span>Hf</span>
+                                <div class="at_details">Hafnio</div>
+                                <div class="at_num">72</div></div>
+                            <div class="element group-text-semantics"><span>Ta</span>
+                                <div class="at_details">Tantalio</div>
+                                <div class="at_num">73</div></div>
+                            <div class="element group-text-semantics"><span>W</span>
+                                <div class="at_details">Wolframio</div>
+                                <div class="at_num">74</div></div>
+                            <div class="element group-text-semantics"><span>Re</span>
+                                <div class="at_details">Renio</div>
+                                <div class="at_num">75</div></div>
+                            <div class="element group-text-semantics"><span>Os</span>
+                                <div class="at_details">Osmio</div>
+                                <div class="at_num">76</div></div>
+                            <div class="element group-text-semantics"><span>Ir</span>
+                                <div class="at_details">Iridio</div>
+                                <div class="at_num">77</div></div>
+                            <div class="element group-media"><span>Pt</span>
+                                <div class="at_details">Platino</div>
+                                <div class="at_num">78</div></div>
+                            <div class="element group-script"><span>Au</span>
+                                <div class="at_details">Oro</div>
+                                <div class="at_num">79</div></div>
+                            <div class="element group-table"><span>Hg</span>
+                                <div class="at_details">Mercurio</div>
+                                <div class="at_num">80</div></div>
+                            <div class="element group-forms"><span>Tl</span>
+                                <div class="at_details">Talio</div>
+                                <div class="at_num">81</div></div>
+                            <div class="element group-forms"><span>Pb</span>
+                                <div class="at_details">Plomo</div>
+                                <div class="at_num">82</div></div>
+                            <div class="element group-interactive"><span>Bi</span>
+                                <div class="at_details">Bismuto</div>
+                                <div class="at_num">83</div></div>
+                            <div class="element group-interactive"><span>Po</span>
+                                <div class="at_details">Polonio</div>
+                                <div class="at_num">84</div></div>
+                            <div class="element group-interactive"><span>At</span>
+                                <div class="at_details">Astato</div>
+                                <div class="at_num">85</div></div>
+                            <div class="element group-interactive"><span>Rn</span>
+                                <div class="at_details">Radón</div>
+                                <div class="at_num">86</div></div>
+                        </div>
+                        <div class="row">
+                            <div class="element group-sectioning"><span>Fr</span>
+                                <div class="at_details">Francio</div><div class="at_num">87</div></div>
+                            <div class="element group-text-content"><span>Ra</span>
+                                <div class="at_details">Radio</div><div class="at_num">88</div></div>
+                            <div class="element group-text-content"><span>Ac</span>
+                                <div class="at_details">Actinio</div><div class="at_num">89</div></div>
+                            <div class="element group-text-content"><span>Rf</span>
+                                <div class="at_details">Rutherfodio</div><div class="at_num">104</div></div>
+                            <div class="element group-text-semantics"><span>Db</span>
+                                <div class="at_details">Dubnio</div><div class="at_num">105</div></div>
+                            <div class="element group-text-semantics"><span>Sg</span>
+                                <div class="at_details">Seaborgio</div><div class="at_num">106</div></div>
+                            <div class="element group-text-semantics"><span>Bh</span>
+                                <div class="at_details">Bohrio</div><div class="at_num">107</div></div>
+                            <div class="element group-text-semantics"><span>Hs</span> 
+                                <div class="at_details">Hassio</div><div class="at_num">108</div></div>
+                            <div class="element group-text-semantics"><span>Mt</span>
+                                <div class="at_details">Meitnerio</div><div class="at_num">109</div></div>
+                            <div class="element group-embedded"><span>Ds</span>
+                                <div class="at_details">Darmstadio</div><div class="at_num">110</div></div>
+                            <div class="element group-edits"><span>Rg</span>
+                                <div class="at_details">Roentgenio</div><div class="at_num">111</div></div>
+                            <div class="element group-table"><span>Cn</span>
+                                <div class="at_details">Copernico</div><div class="at_num">112</div></div>
+                            <div class="element group-forms"><span>Nh</span>
+                                <div class="at_details">Nihonium</div><div class="at_num">113</div></div>
+                            <div class="element group-forms"><span>Fl</span>
+                                <div class="at_details">Flerovio</div><div class="at_num">114</div></div>
+                            <div class="element group-interactive"><span>MC</span>
+                                <div class="at_details">Moscovium</div><div class="at_num">115</div></div>
+                            <div class="element group-interactive"><span>Lv</span>
+                                <div class="at_details">Livermorio</div><div class="at_num">116</div></div>
+                            <div class="element group-interactive"><span>Ts</span>
+                                <div class="at_details">Tennessine</div><div class="at_num">117</div></div>
+                            <div class="element group-interactive"><span>Og</span>
+                                <div class="at_details">Oganesson</div><div class="at_num">118</div></div>
+                        </div>
+                        <div class="row">
+                            <div class="element group-sectioning"><span>Uue</span>
+                                <div class="at_details">Unnunenio</div>
+                                <div class="at_num">119</div></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                        </div>
+                        <div class="row">
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                            <div class="element empty-element"></div>
+                        </div>
+                    </div>
+                    <div class="f-block elements">
+                        <div class="row">
+                            <div class="element group-web-components"><span>Ce</span>
+                                <div class="at_details">Cerio</div>
+                                <div class="at_num">58</div></div>
+                            <div class="element group-web-components"><span>Pr</span>
+                                <div class="at_details">Praseodimic</div>
+                                <div class="at_num">59</div></div>
+                            <div class="element group-web-components"><span>Nd</span> 
+                                <div class="at_details">Neodimio</div>
+                                <div class="at_num">60</div></div>
+                            <div class="element group-web-components"><span>Pm</span>
+                                <div class="at_details">Prometio</div>
+                                <div class="at_num">61</div></div>
+                            <div class="element group-web-components"><span>Sm</span>
+                                <div class="at_details">Samario</div>
+                                <div class="at_num">62</div></div>
+                            <div class="element group-web-components"><span>Eu</span>
+                                <div class="at_details">Europio</div>
+                                <div class="at_num">63</div></div>
+                            <div class="element group-web-components"><span>Gd</span>
+                                <div class="at_details">Gadolinio</div>
+                                <div class="at_num">64</div></div>
+                            <div class="element group-web-components"><span>Tb</span>
+                                <div class="at_details">Terbio</div>
+                                <div class="at_num">65</div></div>
+                            <div class="element group-web-components"><span>Dy</span>
+                                <div class="at_details">Disprosio</div>
+                                <div class="at_num">66</div></div>
+                            <div class="element group-web-components"><span>Ho</span>
+                                <div class="at_details">Holmio</div>
+                                <div class="at_num">67</div></div>
+                            <div class="element group-web-components"><span>Er</span>
+                                <div class="at_details">Erbio</div>
+                                <div class="at_num">68</div></div>
+                            <div class="element group-web-components"><span>Tm</span>
+                                <div class="at_details">Tulio</div>
+                                <div class="at_num">69</div></div>
+                            <div class="element group-web-components"><span>Yb</span>
+                                <div class="at_details">Iterbio</div>
+                                <div class="at_num">70</div></div>
+                            <div class="element group-web-components"><span>Lu</span>
+                                <div class="at_details">Lutecio</div>
+                                <div class="at_num">71</div></div>
+                        </div>
+                    </div>
+                    <div class="f-block elements">
+                        <div class="row">
+                            <div class="element group-web-components"><span>Th</span>
+                                <div class="at_details">Torio</div>
+                                <div class="at_num">90</div></div>
+                            <div class="element group-web-components"><span>Pa</span>
+                                <div class="at_details">Protactinio</div>
+                                <div class="at_num">91</div></div>
+                            <div class="element group-web-components"><span>U</span>
+                                <div class="at_details">Uranio</div>
+                                <div class="at_num">92</div></div>
+                            <div class="element group-web-components"><span>Np</span>
+                                <div class="at_details">Neptunio</div>
+                                <div class="at_num">93</div></div>
+                            <div class="element group-web-components"><span>Pu</span>
+                                <div class="at_details">Plutonio</div>
+                                <div class="at_num">94</div></div>
+                            <div class="element group-web-components"><span>Am</span>
+                                <div class="at_details">Americio</div>
+                                <div class="at_num">95</div></div>
+                            <div class="element group-web-components"><span>Cm</span>
+                                <div class="at_details">Curio</div>
+                                <div class="at_num">96</div></div>
+                            <div class="element group-web-components"><span>Bk</span>
+                                <div class="at_details">Berkelio</div>
+                                <div class="at_num">97</div></div>
+                            <div class="element group-web-components"><span>Cf</span>
+                                <div class="at_details">Californio</div>
+                                <div class="at_num">98</div></div>
+                            <div class="element group-web-components"><span>Es</span>
+                                <div class="at_details">Einstenio</div>
+                                <div class="at_num">99</div></div>
+                            <div class="element group-web-components"><span>Fm</span>
+                                <div class="at_details">Fermio</div>
+                                <div class="at_num">100</div></div>
+                            <div class="element group-web-components"><span>Md</span>
+                                <div class="at_details">Mendelevio</div>
+                                <div class="at_num">101</div></div>
+                            <div class="element group-web-components"><span>No</span>
+                                <div class="at_details">Nobelio</div>
+                                <div class="at_num">102</div></div>
+                            <div class="element group-web-components"><span>Lr</span>
+                                <div class="at_details">Lawerencio</div>
+                                <div class="at_num">103</div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<ul class="key">
+                    <li class="group-base">base</li>
+                    <li class="group-metadata">metadata</li>
+                    <li class="group-sectioning">sectioning</li>
+                    <li class="group-text-content">text-content</li>
+                    <li class="group-text-semantics">text-semantics</li>
+                    <li class="group-media">media</li>
+                    <li class="group-embedded">embedded</li>
+                    <li class="group-script">script</li>
+                    <li class="group-edits">edits</li>
+                    <li class="group-table">table</li>
+                    <li class="group-forms">forms</li>
+                    <li class="group-interactive">interactive</li>
+                    <li class="group-web-components">web-components</li>
+                </ul>-->
+
+
+
+            </div>
+        </main>
+        <!--<script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            if (document.location.hostname === "madebymike.com.au") {
+                ga('create', 'UA-42027047-2', 'auto');
+                ga('send', 'pageview');
+            }
+            Array.prototype.forEach.call(document.querySelectorAll('.key li'), function (li) {
+                li.addEventListener('mouseenter', function () {
+                    document.body.classList.add('hover-' + this.className);
+                });
+                li.addEventListener('mouseleave', function () {
+                    document.body.classList.remove('hover-' + this.className);
+                });
+            });
+
+        </script>-->
+    </body>
+</html>
